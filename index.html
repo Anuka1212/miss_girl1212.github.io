@@ -1,0 +1,20 @@
+<html>
+<head>
+<script type='text/javascript'>
+//Данная функция будет вызвана после полной загрузки страницы
+function popBox() {
+   x=confirm('Click OK if you are over 18.');
+   if (x==true) {
+      document.location.href = 'http://valera-flix.ml/'
+     
+   }
+   else {
+      
+      document.write('Вы нажали Отмена');
+   }
+}
+</script>
+</head>
+<body onload='popBox()'>
+</body>
+</html>
